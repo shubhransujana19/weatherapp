@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(69, 5, 32, 0.347);
+
+}
+.container-fluid{
+    background-color:rgba(39, 51, 92, 0.71);
+    
+}
+
+.card-body{
+   background-color: rgba(61, 61, 152, 0.429); 
+   
+}
+.dropdown-item{
+    color: rgba(68, 160, 120, 0.845);
+    text-decoration-color:rgb(146, 37, 37);
+}
+.card-header{
+    background-color: #5ea6c3;
+    text-justify: auto;
+    text-align: center;
+    color: chartreuse;
+}
