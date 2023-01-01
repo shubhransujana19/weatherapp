@@ -21,3 +21,9 @@ body{
     text-align: center;
     color: chartreuse;
 }
+.intro{
+   
+    text-justify: auto;
+    text-align: center;
+    color: rgb(146, 26, 157);
+}
