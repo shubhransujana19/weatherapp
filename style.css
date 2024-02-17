@@ -1,29 +1,61 @@
-body{
-    background-color: rgba(69, 5, 32, 0.347);
-
-}
-.container-fluid{
-    background-color:rgba(39, 51, 92, 0.71);
-    
-}
-
-.card-body{
-   background-color: rgba(61, 61, 152, 0.429); 
-   
-}
-.dropdown-item{
-    color: rgba(68, 160, 120, 0.845);
-    text-decoration-color:rgb(146, 37, 37);
-}
-.card-header{
-    background-color: #5ea6c3;
-    text-justify: auto;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
     text-align: center;
-    color: chartreuse;
-}
-.intro{
-   
-    text-justify: auto;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #city-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #current-weather {
     text-align: center;
-   color: rgb(161, 6, 6);
-}
+  }
+  
+  .weather-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #weather-icon {
+    width: 100px;
+  }
+  
+  .info {
+    text-align: left;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  #additional-info {
+    text-align: center;
+  }
+  
